@@ -1,1 +1,2 @@
 C:\Users\bryce\source\repos\week2\Debug\week2.exe
+C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week2Cplus\week2\Debug\week2.exe

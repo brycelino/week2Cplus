@@ -1,2 +1,4 @@
 ﻿  week2.cpp
-  week2.vcxproj -> C:\Users\bryce\source\repos\week2\Debug\week2.exe
+C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week2Cplus\week2\week2.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week2Cplus\week2\week2.cpp(61,22): warning C4018: '<': signed/unsigned mismatch
+  week2.vcxproj -> C:\Users\bryce\OneDrive\Documents\GitHub\school c# g&s\week2Cplus\week2\Debug\week2.exe

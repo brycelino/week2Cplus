@@ -40,33 +40,34 @@ void reverseLetters()
 void removedVowels()
 {
 	
-	char str[100];// initializing variable that will contain the users input
-
+	//char str[100];// initializing variable that will contain the users input
+	string input;
+		string output;
 	
 	cout << "Enter a word to remove vowels : "; // asking the user to enter a string 
-	cin >> str; // get the users input on screen
+	cin >> input; // get the users input on screen
 
-	int len = strlen(str); // find the length of the users input 
+
 
 	
-	for (int i = 0; i < len; i++) // iterating the string
+	for (int i = 0; i < input.length(); i++) // iterating the string
 	{
 		// if statment that will check to see if the users input contains any vowels 
-		if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'
-			|| str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U')
+		if (input[i] == 'a' || input[i] == 'e' || input[i] == 'i' || input[i] == 'o' || input[i] == 'u'
+			|| input[i] == 'A' || input[i] == 'E' || input[i] == 'I' || input[i] == 'O' || input[i] == 'U')
 		{
 
 			
-			for (int j = i; j < len; j++) // deleting vowels by shifting left all upcoming characters left 
+			for (int j = i; j < input.length(); j++) // deleting vowels by shifting left all upcoming characters left 
 			{
-				str[j] = str[j + 1];
+				output[j] = input[i];
 			}
 			i--;
-			len--;
+			
 		}
 	}
 	
-	cout << "After removing Vowels: " << str; // print the new input of the users input 
+	cout << "After removing Vowels: " << output; // print the new input of the users input 
 
 	
 }
@@ -75,9 +76,9 @@ void removedVowels()
 
 int main()
 {
-   divisibleByTwo(10, 50);
+   //divisibleByTwo(10, 50);
 	
-   reverseLetters();
+  // reverseLetters();
 
 	removedVowels();
 	
