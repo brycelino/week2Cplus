@@ -76,9 +76,9 @@ void removedVowels()
 
 int main()
 {
-   //divisibleByTwo(10, 50);
+   divisibleByTwo(10, 50);
 	
-  // reverseLetters();
+   reverseLetters();
 
 	removedVowels();
 	
