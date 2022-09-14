@@ -13,7 +13,7 @@ using namespace std;
 void divisibleByTwo(int a, int b)
 {
 
-    for (int i = 0; i < 1000; i++) // as long as i is less than 1000 we will increment i by 1 
+    for (int i = 0; i <= 1000; i++) // as long as i is less than 1000 we will increment i by 1 
     {
         if (i % a == 0) // if i divided by a returns 0 for the remainder output i
         {
